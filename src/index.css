@@ -7,6 +7,10 @@
 .active hr{
   @apply block;
 }
+
+::-webkit-scrollbar{
+  @apply hidden;
+}
 *{
   /* margin: 0;
   padding: 0;
